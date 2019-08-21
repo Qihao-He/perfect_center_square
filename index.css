@@ -1,18 +1,14 @@
 .outer {
-  background-color: #3F704D;
-  width: 500px;
   height: 500px;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
+  width: 500px;
+  background-color: green;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
 .inner {
-  background-color: #FF4136;
-  width: 200px;
   height: 200px;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
+  width: 200px;
+  background-color: red;
 }
